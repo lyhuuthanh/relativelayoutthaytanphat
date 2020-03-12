@@ -6,13 +6,62 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+   <TextView
+       android:text="view1"
+       android:textSize="60sp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
     <TextView
+    android:text="view2"
+    android:textSize="60sp"
+        android:layout_alignParentRight="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <TextView
+        android:text="view3"
+        android:textSize="60sp"
+        android:layout_alignParentBottom="true"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="wrap_content"/>
+    <TextView
+    android:text="view4"
+    android:textSize="60sp"
+        android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <TextView
+    android:text="view5"
+    android:textSize="30sp"
+   android:layout_centerHorizontal="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <TextView
+        android:text="view6"
+        android:textSize="30sp"
+android:layout_centerHorizontal="true"
+android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="view7"
+        android:textSize="30sp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="view8"
+        android:textSize="30sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="view9"
+        android:textSize="60sp"
+       android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
 
 </RelativeLayout>
